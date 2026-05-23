@@ -191,9 +191,65 @@
     width: 350px;
     height: 350px;
 }
-.youtube  iframe{
+.youtube iframe{
    width: 250px;
-    height: 250px;
+   height: 250px;
 }
+/*///////////////////*/
+
+/*/////expertos////////*/
+.trabajadores {
+    flex-direction:column;
+    gap:30px;
+}
+
+.nombre1{
+   top: 1252%;
+  left: 25%;
+  width: 50%;
+}
+
+.nombre2{
+   top: 1322%;
+  left: 25%;
+  width: 50%;
+}
+
+.nombre3{
+   top: 1395%;
+  left: 25%;
+  width: 50%;
+}
+
+.nombre4{
+   top: 1467%;
+  left: 25%;
+  width: 50%;
+}
+
+.iconostrabajadores1 {
+  top: 1198%;
+  left: 69%;
+  width: 15%;
+}
+
+.iconostrabajadores2 {
+  top: 1270%;
+  left: 69%;
+  width: 15%;
+}
+
+.iconostrabajadores3 {
+  top: 1342%;
+  left: 69%;
+  width: 15%;
+}
+
+.iconostrabajadores4 {
+  top: 1413%;
+  left: 69%;
+  width: 15%;
+}
+
 /*///////////////////*/
 }
