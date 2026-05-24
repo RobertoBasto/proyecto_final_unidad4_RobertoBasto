@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --negro: #0d152a;
+  --naranja:#f7941d;
+  --gris:#686969;
+  --blanco:#ffffff;
+  --gris2:#f4f5f7;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+spam {
+    color:var(--naranja);
+}
+
+/*header///////*/
+
+.direccion {
+    background-color: var(--negro);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+
+.comunicacion {
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    color:var(--blanco);
+}
+
+.com{
+    gap:10px;
+    display:flex;
+    flex-direction: row;
+}
+
+.com i{
+   color:var(--naranja); 
+}
+
+.iconos i{
+  color:var(--naranja);
+  background-color: var(--blanco);
+  padding:15px;
+  border-radius: 50%;
+}
+.iconos i:hover{
+    background-color: var(--negro);
+    color:var(--blanco);
+    transition: 1.0s;
+}
+
+.navegador {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+}
+
+
+.pestox {
+    display:flex;
+    width: 30%;
+    align-items: center;
+}
+
+.pestox img{
+    display:flex;
+    width: 100%;
+}
+
+.phone {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lupa {
+    display:flex;
+    margin:0px 190px;
+}
+
+.lupa a{
+    color:var(--negro);
+    font-size: 20px;
+}
+
+ .lupa a:hover{
+    color:var(--naranja);
+    transition: 1.0s;
+ }
+
+ .GetQuote{
+    display:flex;
+    
+ }
+ 
+ .GetQuote a{
+    background-color: var(--naranja);
+    padding:10px;
+    border-radius: 20px;
+    color:var(--blanco);
+ }
+ .GetQuote i{
+    padding:0px 10px;
+ }
+
+ .GetQuote a:hover{
+    background-color: var(--negro);
+    transition: 1.0s;
+ }
+
+
+.nave {
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.nave a{
+    color:var(--negro);
+    font-size: 20px;
+}
+
+.nave a:hover {
+   color:var(--naranja);
+   transition:1.0s;
+}
+
+.hamburguesa {
+    display:none;
+}
+/*///////////////////////*/
+
+/*//////slide///*/
+.slide figure {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: color-mix(in srgb, var(--negro) 50%, transparent);
+}
+/*////////////////////*/

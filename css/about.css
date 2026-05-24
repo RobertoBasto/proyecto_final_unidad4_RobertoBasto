@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --negro: #0d152a;
+  --naranja:#f7941d;
+  --gris:#686969;
+  --blanco:#ffffff;
+  --gris2:#f4f5f7;
+}
+
+a{
+    text-decoration: none;
+}
+
+spam {
+    color:var(--naranja);
+}
+
+/*header///////*/
+
+.direccion {
+    background-color: var(--negro);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+
+.comunicacion {
+    display:flex;
+    flex-direction: row;
+    gap:15px;
+    color:var(--blanco);
+}
+
+.com{
+    gap:10px;
+    display:flex;
+    flex-direction: row;
+}
+
+.com i{
+   color:var(--naranja); 
+}
+
+.iconos i{
+  color:var(--naranja);
+  background-color: var(--blanco);
+  padding:15px;
+  border-radius: 50%;
+}
+.iconos i:hover{
+    background-color: var(--negro);
+    color:var(--blanco);
+    transition: 1.0s;
+}
+
+.navegador {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+}
+
+
+.pestox {
+    display:flex;
+    width: 30%;
+    align-items: center;
+}
+
+.pestox img{
+    display:flex;
+    width: 100%;
+}
+
+.phone {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lupa {
+    display:flex;
+    margin:0px 190px;
+}
+
+.lupa a{
+    color:var(--negro);
+    font-size: 20px;
+}
+
+ .lupa a:hover{
+    color:var(--naranja);
+    transition: 1.0s;
+ }
+
+ .GetQuote{
+    display:flex;
+    
+ }
+ 
+ .GetQuote a{
+    background-color: var(--naranja);
+    padding:10px;
+    border-radius: 20px;
+    color:var(--blanco);
+ }
+ .GetQuote i{
+    padding:0px 10px;
+ }
+
+ .GetQuote a:hover{
+    background-color: var(--negro);
+    transition: 1.0s;
+ }
+
+
+.nave {
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+.nave a{
+    color:var(--negro);
+    font-size: 20px;
+}
+
+.nave a:hover {
+   color:var(--naranja);
+   transition:1.0s;
+}
+
+.hamburguesa {
+    display:none;
+}
+/*///////////////////////*/
+
+/*//////slide///*/
+.slide figure {
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-color: color-mix(in srgb, var(--negro) 50%, transparent);
+}
+/*////////////////////*/
+
+
+/*////////controlservices/////////*/
+.controlservices {
+    display:flex;
+    flex-direction: row;
+    margin:120px 100px;
+    justify-content: space-around;
+    gap:50px;
+}
+.fotofumigador {
+    display:flex;
+    
+}
+
+.imgabout img{
+    height: 500px;
+    border-radius:20px;
+}
+
+.imgabout:before {
+  content: '';
+  position: absolute;
+  width: 380px;
+  height: 500px;
+  background-color: var(--naranja);
+  border-radius: 20px;
+  top: 103%;
+  left: 5%;
+  z-index: -2;
+}
+
+.puntos {
+  position: absolute;
+  top: 95%;
+  left: 33%;
+  width: 5%;
+  z-index: -1;
+}
+
+.years {
+ position: absolute;
+  top: 156%;
+  left: 10%;
+  width: 10%;
+  padding:20px;
+  border-radius: 20px;
+  background-color: var(--naranja);
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 2;
+  color:var(--blanco);
+}
+.textofumigador {
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    margin:40px;
+}
+.textofumigador h3{
+    color:var(--naranja);
+}
+.contactus {
+    background-color: var(--naranja);
+    padding:10px;
+    border-radius: 20px;
+    color:var(--blanco);
+}
+ .contactus:hover {
+    background-color: var(--negro);
+    transition: 1.0s;
+ }
+.contactus i{
+ color:var(--blanco);
+ padding:0px 10px;
+}
+
+.list {
+    display:flex;
+    gap:30px;
+    flex-direction: column;
+    color:var(--gris);
+}
+.list i{
+    color:var(--naranja);
+}
+/*////////////////////*/
+
+/*///////cinta//////////*/
+.cinta {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap:120px;
+    margin:60px 0px;
+    padding:30px;
+    color:var(--blanco);
+    background-color: var(--naranja);
+}
+.cintacontenido img{
+  width: 120px;
+  height: 120px;
+}
+/*///////////////////*/
