@@ -60,6 +60,14 @@
 /*////////////////*/
 
 
+/*//////slide////////*/
+.breadcrumb {
+    top:30%;
+    left:25%;
+}
+/*///////////////*/
+
+
 /*///////controlservices///////////*/
 .controlservices {
     flex-direction: column;

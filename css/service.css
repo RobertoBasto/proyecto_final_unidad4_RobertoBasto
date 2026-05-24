@@ -162,4 +162,44 @@ spam {
     height: 400px;
     background-color: color-mix(in srgb, var(--negro) 50%, transparent);
 }
+
+.breadcrumb {
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top:40%;
+    left:43%;
+    z-index: 2;
+    gap:20px;
+    text-align: center;
+}
+
+.breadcrumb h1 {
+    color:white;
+}
+.guia {
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.guia a{
+    color:var(--blanco);
+}
+.guia i{
+    padding:0px 5px;
+    color:var(--blanco);
+}
+.casa a:hover{
+    color:var(--naranja);
+    transition: 1.0s;
+}
+.casa i:hover{
+    color:var(--naranja);
+    transition: 1.0s;
+}
+.guia p{
+    color:var(--naranja);
+}
 /*////////////////////*/
