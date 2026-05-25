@@ -9,12 +9,32 @@
   --gris:#686969;
   --blanco:#ffffff;
   --gris2:#f4f5f7;
+  --formato1:"Roboto", sans-serif;
+  --formato2:"Urbanist", sans-serif;
 }
 
+h1 {
+  font-family: var(--formato1);
+}
 
+h2 {
+  font-family: var(--formato1);
+}
 
+h3{
+  font-family: var(--formato1);
+}
 a{
     text-decoration: none;
+    font-family:var(--formato2);
+}
+
+button{
+    font-family:var(--formato2);
+}
+
+p {
+    font-family:var(--formato2);
 }
 
 spam {
@@ -203,3 +223,220 @@ spam {
     color:var(--naranja);
 }
 /*////////////////////*/
+
+/*//////contactanos/////////*/
+.contactanos {
+    display:flex;
+    flex-direction:row;
+    margin:80px;
+    justify-content: space-around;
+}
+
+.formulario {
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    padding:20px;
+    gap:20px;
+}
+
+.textocuestionario {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:10px;
+    margin:10px;
+}
+
+.textocuestionario h1{
+    color:var(--negro);
+}
+
+.textocuestionario p{
+    color:var(--negro);
+}
+
+.cuestionario {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+}
+.form-container {
+  max-width: 400px;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.form-container .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.form-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-container .form-group input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+
+.form-container .form-group input::placeholder {
+  opacity: 0.7;
+}
+.cuestionario button {
+    color:var(--blanco);
+    background-color: var(--naranja);
+    padding:10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.cuestionario button:hover {
+    background-color: var(--negro);
+    transition: 1.0s;
+}
+
+.datos_de_contacto {
+    display:flex;
+    flex-direction:column;
+    margin:20px;
+    padding:20px;
+    gap:80px;
+}
+
+.iconos_datos {
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+    align-items: center;
+}
+
+.iconos_datos i{
+    background-color: var(--naranja);
+    border-radius: 50%;
+    padding:20px;
+    color:var(--blanco);
+}
+
+.texto_de_contacto {
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+.texto_de_contacto h3{
+    color:var(--negro);
+}
+
+.texto_de_contacto p{
+    color:var(--negro);
+}
+
+
+/*///////////////////*/
+
+/*////top-footer/////////*/
+.top-footer {
+    display:flex;
+    flex-direction: row;
+    background-color:var(--negro);
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+.top-footer h3{
+    color:var(--blanco);
+}
+.top-footer p{
+    color:var(--blanco);
+}
+.top-footer i{
+    color:var(--naranja);
+    padding:0px 5px;
+}
+.siguenos {
+    margin:50px 100px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.siguenos img {
+    width: 30%;
+    height: 30%;
+}
+.logodireccion i{
+   color:var(--blanco);
+   background-color: var(--naranja);
+   padding:10px;
+   border-radius: 20px;
+}
+
+.logodireccion i:hover{
+   color:var(--naranja);
+   background-color: var(--blanco);
+   transition: 1.0s;
+}
+.links {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.links h3{
+    border-bottom:3px solid var(--naranja);
+}
+/*///////////////////*/
+
+
+/*////bottom-footer/////////*/
+.bottom-footer {
+    background-color: var(--negro);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-align: center;
+    padding:20px;
+    color:var(--blanco);
+}
+
+.terminos {
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+/*///////////////////*/
+
+
+/*//////flecha//////////*/
+html {
+    scroll-behavior: smooth ;
+}
+
+.flecha {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    z-index:999;
+ }
+
+.flecha a{
+    border: 2px var(--blanco) solid;
+    border-radius: 10px;
+    color:var(--blanco);
+    background-color: var(--naranja);
+    padding:10px;
+
+}
+/*///////////////////*/

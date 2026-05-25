@@ -92,21 +92,21 @@
   position: absolute;
   width: 300px;
   height: 350px;
-  top: 93%;
+  top: 85%;
   left: 5%;
   z-index: -2;
 }
 
 .puntos {
   position: absolute;
-  top: 81%;
+  top: 75%;
   left: 75%;
   width: 20%;
 }
 
 .years {
  position: absolute;
-  top: 130%;
+  top: 123%;
   left: 22%;
   width: 40%;
   padding:20px;
@@ -143,49 +143,49 @@
 }
 
 .nombre1{
-   top: 626%;
+   top: 628%;
   left: 25%;
   width: 50%;
 }
 
 .nombre2{
-   top: 700%;
+   top: 701%;
   left: 25%;
   width: 50%;
 }
 
 .nombre3{
-   top: 770%;
+   top: 771%;
   left: 25%;
   width: 50%;
 }
 
 .nombre4{
-   top: 842%;
+   top: 843%;
   left: 25%;
   width: 50%;
 }
 
 .iconostrabajadores1 {
-  top: 573%;
+  top: 575%;
   left: 69%;
   width: 15%;
 }
 
 .iconostrabajadores2 {
-  top: 645%;
+  top: 647%;
   left: 69%;
   width: 15%;
 }
 
 .iconostrabajadores3 {
-  top: 716%;
+  top: 718%;
   left: 69%;
   width: 15%;
 }
 
 .iconostrabajadores4 {
-  top: 787%;
+  top: 789%;
   left: 69%;
   width: 15%;
 }

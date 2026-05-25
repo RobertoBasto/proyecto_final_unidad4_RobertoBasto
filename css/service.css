@@ -9,12 +9,32 @@
   --gris:#686969;
   --blanco:#ffffff;
   --gris2:#f4f5f7;
+  --formato1:"Roboto", sans-serif;
+  --formato2:"Urbanist", sans-serif;
 }
 
+h1 {
+  font-family: var(--formato1);
+}
 
+h2 {
+  font-family: var(--formato1);
+}
 
+h3{
+  font-family: var(--formato1);
+}
 a{
     text-decoration: none;
+    font-family:var(--formato2);
+}
+
+button{
+    font-family:var(--formato2);
+}
+
+p {
+    font-family:var(--formato2);
 }
 
 spam {
@@ -266,3 +286,98 @@ spam {
     
 }
 /*////////////////////*/
+
+
+/*////top-footer/////////*/
+.top-footer {
+    display:flex;
+    flex-direction: row;
+    background-color:var(--negro);
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+.top-footer h3{
+    color:var(--blanco);
+}
+.top-footer p{
+    color:var(--blanco);
+}
+.top-footer i{
+    color:var(--naranja);
+    padding:0px 5px;
+}
+.siguenos {
+    margin:50px 100px;
+    width: 30%;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.siguenos img {
+    width: 30%;
+    height: 30%;
+}
+.logodireccion i{
+   color:var(--blanco);
+   background-color: var(--naranja);
+   padding:10px;
+   border-radius: 20px;
+}
+
+.logodireccion i:hover{
+   color:var(--naranja);
+   background-color: var(--blanco);
+   transition: 1.0s;
+}
+.links {
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.links h3{
+    border-bottom:3px solid var(--naranja);
+}
+/*///////////////////*/
+
+
+/*////bottom-footer/////////*/
+.bottom-footer {
+    background-color: var(--negro);
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-align: center;
+    padding:20px;
+    color:var(--blanco);
+}
+
+.terminos {
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+/*///////////////////*/
+
+
+/*//////flecha//////////*/
+html {
+    scroll-behavior: smooth ;
+}
+
+.flecha {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    z-index:999;
+ }
+
+.flecha a{
+    border: 2px var(--blanco) solid;
+    border-radius: 10px;
+    color:var(--blanco);
+    background-color: var(--naranja);
+    padding:10px;
+
+}
+/*///////////////////*/

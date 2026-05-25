@@ -74,4 +74,34 @@
     flex-direction: column-reverse;
 }
 /*////////////////////*/
+
+/*////top-footer/////////*/
+.top-footer {
+    padding:20px;
+    flex-direction: column;
+    gap:50px;
+}
+.siguenos {
+    margin:40px 100px;
+    width: 50%;
+}
+.siguenos img {
+    width: 60%;
+    height: 60%;
+}
+/*///////////////////*/
+
+
+/*////bottom-footer/////////*/
+.bottom-footer {
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    gap:20px;
+}
+.terminos {
+    flex-direction: row;
+    gap:30px;
+}
+/*///////////////////*/
 }
