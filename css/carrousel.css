@@ -1,0 +1,107 @@
+/* contenedor carrousel */
+#carousel {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+}
+/* contenido carrrousel */
+#slide-container {
+  scroll-snap-type: x mandatory;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 10px;
+  color: #000;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+.slide {
+  padding: 20px;
+  scroll-snap-align: center;
+  position: relative;
+  min-width: 33%;
+  text-align: center;
+}
+/* contenedor botones */
+.slide-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+  left: 0%;
+  top: 38%;
+  width: 100%;
+}
+
+.slide-buttons button{
+  color:transparent;
+  border:none;
+  background-color: transparent;
+}
+/* contenedor indicadores */
+.slide-indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+.slide-indicators button{
+  border:none;
+}
+
+.slide-indicator {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 5px;
+  width: 50px;
+}
+.slide-indicator:after {
+  content: "";
+  border: 1px black solid;
+  height: 10px;
+  width: 10px;
+  border-radius: 15px;
+}
+.slide-indicator.active:after{
+ 
+  background-color: var(--naranja);
+  width: 30px;
+  border:none; 
+  transition: 0.5s;
+}
+.slide-indicator:hover:after {
+  background-color: var(--naranja);
+  border: none;
+}
+/* flechas */
+.arrow {
+  border: 1px black solid;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+
+@media (max-width: 430px){
+
+    .slide {
+  padding: 20px;
+  scroll-snap-align: center;
+  position: relative;
+  min-width: 90%;
+  text-align: center;
+}
+
+
+    
+}

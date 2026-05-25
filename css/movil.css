@@ -5,8 +5,11 @@
     display:none;
 }
 .navegador {
+    z-index: 99;
+    position:fixed;
     display:flex;
     flex-direction: column;
+    background-color: var(--blanco);
 }
 .nave {
     display: none;
@@ -151,13 +154,18 @@
 /*///////////////////*/
 
 /*///////galeria//////////*/
+
+.galeria {
+    display:flex;
+    justify-content: center;
+}
 .fotos {
+    align-items: center;
+    margin:0px;
     display:grid;
-    grid-template-areas: "fot1" 
-                        "fot2" 
-                        "fot3" 
-                         "fot4"; 
-                         
+    grid-template:repeat(4,1fr)/auto;
+    text-align: center; 
+    padding:0px;              
 }
 /*///////////////////*/
 

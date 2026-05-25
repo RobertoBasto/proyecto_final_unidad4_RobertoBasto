@@ -4,8 +4,11 @@
     display:none;
 }
 .navegador {
+    z-index: 99;
+    position:fixed;
     display:flex;
     flex-direction: column;
+    background-color: var(--blanco);
 }
 .nave {
     display: none;
@@ -126,5 +129,97 @@
 }
 /*///////////////////*/
 
+/*///////carrousel///////*/
+
+.carouseltitulo{
+    text-align: center;
+}
+/*////////////////*/
+
+/*/////expertos////////*/
+.trabajadores {
+    flex-direction:column;
+    gap:30px;
+}
+
+.nombre1{
+   top: 626%;
+  left: 25%;
+  width: 50%;
+}
+
+.nombre2{
+   top: 700%;
+  left: 25%;
+  width: 50%;
+}
+
+.nombre3{
+   top: 770%;
+  left: 25%;
+  width: 50%;
+}
+
+.nombre4{
+   top: 842%;
+  left: 25%;
+  width: 50%;
+}
+
+.iconostrabajadores1 {
+  top: 573%;
+  left: 69%;
+  width: 15%;
+}
+
+.iconostrabajadores2 {
+  top: 645%;
+  left: 69%;
+  width: 15%;
+}
+
+.iconostrabajadores3 {
+  top: 716%;
+  left: 69%;
+  width: 15%;
+}
+
+.iconostrabajadores4 {
+  top: 787%;
+  left: 69%;
+  width: 15%;
+}
+
+/*///////////////////*/
+
+/*////top-footer/////////*/
+.top-footer {
+    padding:20px;
+    flex-direction: column;
+    gap:50px;
+}
+.siguenos {
+    margin:40px 100px;
+    width: 50%;
+}
+.siguenos img {
+    width: 60%;
+    height: 60%;
+}
+/*///////////////////*/
+
+
+/*////bottom-footer/////////*/
+.bottom-footer {
+    flex-direction:column;
+    justify-content:center;
+    padding:10px;
+    gap:20px;
+}
+.terminos {
+    flex-direction: row;
+    gap:30px;
+}
+/*///////////////////*/
 
 }

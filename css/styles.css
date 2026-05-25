@@ -281,8 +281,8 @@ spam {
 .imgabout img{
     height: 500px;
     border-radius:20px;
+    filter:invert(20%);
 }
-
 .imgabout:before {
   content: '';
   position: absolute;
@@ -423,9 +423,10 @@ spam {
     height: 100%;
     display:flex;
     gap:30px;
-    
+    justify-content: center;
 }
 .fotos img {
+    
     display:block;
     width: 280px;
     height: 300px;
@@ -600,7 +601,7 @@ spam {
     align-items: center;
     top:0%;
     left:0%;
-    z-index:9999;
+    z-index:1999;
 }
 
 .contenidomodal{
@@ -1032,5 +1033,27 @@ box-shadow: 14px 23px 30px -20px rgba(0,0,0,0.75);
     display:flex;
     flex-direction: row;
     gap:30px;
+}
+/*///////////////////*/
+
+/*//////flecha//////////*/
+html {
+    scroll-behavior: smooth ;
+}
+
+.flecha {
+    position: fixed;
+    bottom:30px;
+    right:20px;
+    z-index:999;
+ }
+
+.flecha a{
+    border: 2px var(--blanco) solid;
+    border-radius: 10px;
+    color:var(--blanco);
+    background-color: var(--naranja);
+    padding:10px;
+
 }
 /*///////////////////*/

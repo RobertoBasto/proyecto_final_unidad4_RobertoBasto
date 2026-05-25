@@ -203,3 +203,66 @@ spam {
     color:var(--naranja);
 }
 /*////////////////////*/
+
+/*///////acordeon///////////*/
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.margen{
+    padding: 15px;
+}
+
+.caja1sub1{
+    border: 1px var(--naranja) solid;
+    border-radius: 20px;
+    background-color: var(--blanco);
+    color: var(--negro);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.acor i{
+    color: var(--blanco);
+    background-color: var(--naranja);
+    border-radius: 50%;
+    padding:10px;
+}
+
+
+.caja1sub2{
+    border: 1px var(--naranja) solid;
+    border-radius: 20px;
+    padding: 20px;
+    display: none;
+    margin:10px 0px;
+}
+
+.contenidoacordeon {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenidoacordeon img {
+    width:250px;
+    height:200px;
+    border-radius: 20px;
+}
+.textoacordeon p{
+    padding:5px;
+    color:var(--gris);
+    margin:20px;
+    text-align: justify;
+}
+.rotar{
+    transform: rotate(180deg);
+    
+}
+/*////////////////////*/

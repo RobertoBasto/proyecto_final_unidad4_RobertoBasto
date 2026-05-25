@@ -4,8 +4,11 @@
     display:none;
 }
 .navegador {
+    z-index: 99;
+    position:fixed;
     display:flex;
     flex-direction: column;
+    background-color: var(--blanco);
 }
 .nave {
     display: none;
@@ -65,4 +68,10 @@
     left:25%;
 }
 /*///////////////*/
+
+/*///////acordeon///////////*/
+.contenidoacordeon {
+    flex-direction: column-reverse;
+}
+/*////////////////////*/
 }

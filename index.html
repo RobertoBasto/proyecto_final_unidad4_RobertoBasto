@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css"/>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/movil.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
    <script src="js/responsiveslides.js"></script>
    <script src="js/wow.min.js"></script>
    <script src="js/funciones.js"></script>
+   <script src="js/fancybox_min.js"></script>
 <title>Home</title>
 
 <body>
+  <a name="top"></a>
     <header>
      <section class="direccion">
         <div class="comunicacion">
@@ -125,7 +129,7 @@
     </section>
 
 
-    <section class="descripcion">
+     <section class="descripcion">
        <div class="wow animate__animated animate__fadeInRight">
      <articles class="contenido">
      <figure>
@@ -632,7 +636,13 @@
   </article>
   </section>
 </footer>
-     
+
+
+<div class="flecha">
+      <a href="#top"><i class="fa-solid fa-angle-up"></i></a>
+</div>
+
+
      <script>$("#ambur").click(function(){
   $("#naves").toggleClass("active");
 });</script> 
