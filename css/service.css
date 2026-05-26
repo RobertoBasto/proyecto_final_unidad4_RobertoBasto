@@ -381,3 +381,7 @@ html {
 
 }
 /*///////////////////*/
+
+.cont_acordeon{
+    column-count: 2;
+}

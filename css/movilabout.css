@@ -1,4 +1,4 @@
-@media(max-width:430px) {
+@media(max-width:431px) {
     /*header///////*/
 .direccion {
     display:none;
@@ -131,63 +131,14 @@
 
 /*///////carrousel///////*/
 
-.carouseltitulo{
-    text-align: center;
-}
-/*////////////////*/
-
-/*/////expertos////////*/
 .trabajadores {
     flex-direction:column;
-    gap:30px;
+    gap:100px;
+    width: 100%;
 }
 
-.nombre1{
-   top: 628%;
-  left: 25%;
-  width: 50%;
-}
-
-.nombre2{
-   top: 701%;
-  left: 25%;
-  width: 50%;
-}
-
-.nombre3{
-   top: 771%;
-  left: 25%;
-  width: 50%;
-}
-
-.nombre4{
-   top: 843%;
-  left: 25%;
-  width: 50%;
-}
-
-.iconostrabajadores1 {
-  top: 575%;
-  left: 69%;
-  width: 15%;
-}
-
-.iconostrabajadores2 {
-  top: 647%;
-  left: 69%;
-  width: 15%;
-}
-
-.iconostrabajadores3 {
-  top: 718%;
-  left: 69%;
-  width: 15%;
-}
-
-.iconostrabajadores4 {
-  top: 789%;
-  left: 69%;
-  width: 15%;
+.iconostrabajadores {
+  left: 70%;
 }
 
 /*///////////////////*/
