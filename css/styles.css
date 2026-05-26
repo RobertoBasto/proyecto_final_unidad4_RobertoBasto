@@ -288,6 +288,7 @@ spam {
 /*///////controlservices////////////*/
 .controlservices {
     display:flex;
+    position:relative;
     flex-direction: row;
     margin:120px 100px;
     justify-content: space-around;
@@ -310,24 +311,22 @@ spam {
   height: 500px;
   background-color: var(--naranja);
   border-radius: 20px;
-  top: 157%;
-  left: 5%;
+  top: 5%;
+  left: -2%;
   z-index: -2;
 }
 
 .puntos {
   position: absolute;
-  top: 150%;
-  left: 33%;
-  width: 5%;
+  top: -5%;
+  left: 30%;
   z-index: -1;
 }
 
 .years {
  position: absolute;
-  top: 212%;
-  left: 10%;
-  width: 10%;
+  top: 84%;
+  left: 5%;
   padding:20px;
   border-radius: 20px;
   background-color: var(--naranja);

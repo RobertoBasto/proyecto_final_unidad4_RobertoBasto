@@ -227,6 +227,7 @@ spam {
 /*////////controlservices/////////*/
 .controlservices {
     display:flex;
+    position:relative;
     flex-direction: row;
     margin:120px 100px;
     justify-content: space-around;
@@ -250,30 +251,28 @@ spam {
   height: 500px;
   background-color: var(--naranja);
   border-radius: 20px;
-  top: 103%;
-  left: 5%;
+  top: 5%;
+  left: -2%;
   z-index: -2;
 }
 
 .puntos {
   position: absolute;
-  top: 95%;
-  left: 33%;
-  width: 5%;
+  top: -5%;
+  left: 30%;
   z-index: -1;
 }
 
 .years {
  position: absolute;
-  top: 156%;
-  left: 10%;
-  width: 10%;
+  top: 84%;
+  left: 5%;
   padding:20px;
   border-radius: 20px;
   background-color: var(--naranja);
-  font-family: Arial, Helvetica, sans-serif;
   z-index: 2;
   color:var(--blanco);
+
 }
 .textofumigador {
     display:flex;
@@ -453,8 +452,6 @@ box-shadow: 14px 23px 30px -20px rgba(0,0,0,0.75);
 -moz-box-shadow: 14px 23px 30px -20px rgba(0,0,0,0.75);
 box-shadow: 14px 23px 30px -20px rgba(0,0,0,0.75);
 }
-
-
 
 .trabajador i{
     color:var(--blanco);

@@ -74,7 +74,7 @@
 /*///////controlservices///////////*/
 .controlservices {
     flex-direction: column;
-    margin:80px 10px;
+    margin:20px 10px;
     justify-content: center;
     gap:20px;
 }
@@ -90,27 +90,22 @@
 .imgabout:before {
   content: '';
   position: absolute;
-  width: 300px;
+  width: 340px;
   height: 350px;
-  top: 85%;
-  left: 5%;
-  z-index: -2;
+  top: 3%;
+  left: 2%;
 }
 
 .puntos {
   position: absolute;
-  top: 75%;
+  top: -4%;
   left: 75%;
-  width: 20%;
+  z-index: -1;
 }
 
 .years {
- position: absolute;
-  top: 123%;
-  left: 22%;
-  width: 40%;
-  padding:20px;
-  border-radius: 20px;
+  top: 27%;
+  left: 20%;
 }
 .contactus {
    align-items: center;
