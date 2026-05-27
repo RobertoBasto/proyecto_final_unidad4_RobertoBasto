@@ -70,10 +70,41 @@
 /*///////////////*/
 
 /*///////acordeon///////////*/
+
+.cont_acordeon {
+    display:grid;
+    grid-template-areas: "acordeon1" 
+                           "acordeon2"
+                          "acordeon3" 
+                          "acordeon4"            
+                          "acordeon5" 
+                          "acordeon6"; 
+                         
+}
+
 .contenidoacordeon {
     flex-direction: column-reverse;
 }
+
 /*////////////////////*/
+
+/*////noticias//////////*/
+
+.blogs {
+    flex-direction:column;
+    align-items: center;
+    gap:40px;
+}
+/*///////////////////*/
+
+/*//////logotipos//////////*/
+.logotipos {
+    flex-direction: column;
+    align-items: center;
+    margin: 70px 0px;
+    gap:30px;
+}
+/*///////////////////*/
 
 /*////top-footer/////////*/
 .top-footer {
@@ -104,10 +135,6 @@
     gap:30px;
 }
 /*///////////////////*/
-
-.cont_acordeon{
-    column-count: 1;
-}
 
 }
 
