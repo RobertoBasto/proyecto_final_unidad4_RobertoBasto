@@ -81,11 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   return;
 }
 
-    // Si todo sale bien
     alert("Formulario enviado correctamente");
-
-    // Aquí puedes enviar datos con fetch o FormData
-    // form.submit();
 
 
   });
