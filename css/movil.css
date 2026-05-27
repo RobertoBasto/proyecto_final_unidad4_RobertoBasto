@@ -82,6 +82,10 @@
 .aboutus {
    display:flex;
 }
+
+.callbacks_nav {
+  width: 40px;
+}
 /*////////////////*/
 
 /*///////descripcion////////////*/

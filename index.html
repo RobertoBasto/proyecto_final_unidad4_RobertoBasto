@@ -72,11 +72,12 @@
     </header>
 
     <section class="contenedor_slide">
-      <ul class="rslides">
-  <li>
-    <div class="background"></div>
-    <img src="imagenes/slide1.jpg" alt="">
-  <div class="filtro">
+      <div class="callbacks_container">
+    <ul class="rslides" id="slider4">
+      <li>
+        <div class="background"></div>
+        <img src="imagenes/slide1.jpg" alt="">
+          <div class="filtro">
     <div class="wow animate__animated animate__fadeInDown">
       <h3>PROTECT YOUR HOME TODAY</h3>
   <h2 >WE CARE ABOUT <spam>YOUR PEST</spam> INFESTATION</h2>
@@ -91,12 +92,15 @@
    <a href="about.html" class="aboutus">About Us<i class="fa-solid fa-arrow-right"></i></a>
   </div>
   </div>
-</div></li>
+</div>
+      </li>
 
-  <li>
-    <div class="background"></div>
-    <img src="imagenes/slide2.jpg" alt="">
-  <div class="filtro">
+
+      <li>
+        <div class="background"></div>
+        <img src="imagenes/slide2.jpg" alt="">
+        <div class="filtro">
+    <div class="wow animate__animated animate__fadeInDown">
       <h3>PROTECT YOUR HOME TODAY</h3>
   <h2 >WE CARE ABOUT <spam>YOUR PEST</spam> INFESTATION</h2>
   <br>
@@ -106,15 +110,19 @@
   </p>
   <br>
   <div class="contenedor_texto_slide">
-   <a href="#" class="contactus">Contact Us<i class="fa-solid fa-arrow-right"></i></a>
-   <a href="#" class="aboutus">About Us<i class="fa-solid fa-arrow-right"></i></a>
+   <a href="contact.html" class="contactus">Contact Us<i class="fa-solid fa-arrow-right"></i></a>
+   <a href="about.html" class="aboutus">About Us<i class="fa-solid fa-arrow-right"></i></a>
   </div>
-</div></li>
+  </div>
+</div>
+      </li>
 
-  <li>
-    <div class="background"></div>
-    <img src="imagenes/slide3.jpg" alt="">
-  <div class="filtro">
+
+      <li>
+        <div class="background"></div>
+        <img src="imagenes/slide3.jpg" alt="">
+      <div class="filtro">
+    <div class="wow animate__animated animate__fadeInDown">
       <h3>PROTECT YOUR HOME TODAY</h3>
   <h2 >WE CARE ABOUT <spam>YOUR PEST</spam> INFESTATION</h2>
   <br>
@@ -124,13 +132,16 @@
   </p>
   <br>
   <div class="contenedor_texto_slide">
-   <a href="#" class="contactus">Contact Us<i class="fa-solid fa-arrow-right"></i></a>
-   <a href="#" class="aboutus">About Us<i class="fa-solid fa-arrow-right"></i></a>
+   <a href="contact.html" class="contactus">Contact Us<i class="fa-solid fa-arrow-right"></i></a>
+   <a href="about.html" class="aboutus">About Us<i class="fa-solid fa-arrow-right"></i></a>
   </div>
-</div></li>
-     </ul>
+  </div>
+</div>
+      </li>
 
-    
+
+    </ul>
+  </div> 
     </section>
 
 
@@ -676,5 +687,23 @@
      $("#modal").css("display", "none")
     })
   })
+
+  //script para slide de fotos con flechas
+    $(function () {
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+    });
+
 </script>
 </body>
