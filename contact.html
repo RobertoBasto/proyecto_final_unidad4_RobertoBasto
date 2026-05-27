@@ -19,6 +19,7 @@
    <script src="js/responsiveslides.js"></script>
    <script src="js/wow.min.js"></script>
    <script src="js/funciones.js"></script>
+  
 <title>Contact</title>
 
 <body>
@@ -97,29 +98,19 @@
 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 </div>
 <div class="cuestionario">
-<div class="form-container"><form class="form">
-        <div class="form-group">
-          <input type="text" placeholder="Your Name*" required="">
-        </div>
-      </div>
-      <div class="form-container"><form class="form">
-        <div class="form-group">
-          <input type="text" placeholder="Your E-mail*" required="">
-        </div>
-      </div>
-        <div class="form-container"><form class="form">
-        <div class="form-group">
-          <input type="text" placeholder="Your Subject*" required="">
-        </div>
-      </div>
-      <div class="form-container"><form class="form">
-        <div class="form-group">
-          <input type="text" placeholder="Write Your Message*" required="">
-        </div>
-      </div>
- <div>
-  <button>Send Message <i class="fa-solid fa-paper-plane"></i></button>
- </div>
+<form class="contenedorformulario" id="contenedorformulario">
+
+  <input type="text" name="nombre" placeholder="Your Name">
+
+  <input type="email" name="email" placeholder="Your Email">
+
+  <input type="text" name="telefono" placeholder="Your Phone">
+
+  <textarea name="mensaje" placeholder="Your Message"></textarea>
+
+  <button type="submit">SEND MESSAGE <i class="fa-solid fa-paper-plane"></i></button>
+
+</form>
 </div>
 
 </article>
@@ -253,7 +244,8 @@
 
 <div class="flecha">
       <a href="#top"><i class="fa-solid fa-angle-up"></i></a>
-</div>
+</div> 
+<script src="js/formulario.js"></script>
 </body>
 
 

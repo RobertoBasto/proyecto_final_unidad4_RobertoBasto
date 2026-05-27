@@ -237,7 +237,7 @@ spam {
     justify-content: space-around;
 }
 
-.formulario {
+.contenedorformulario {
     display:flex;
     flex-direction:column;
     margin:20px;
@@ -266,7 +266,7 @@ spam {
     flex-direction: column;
     gap:15px;
 }
-.form-container {
+.contenedorformulario {
   max-width: 400px;
   padding:20px;
   display: flex;
@@ -275,29 +275,29 @@ spam {
 }
 
 
-.form-container .form {
+.contenedorformulario form {
   display: flex;
   flex-direction: column;
 }
 
-.form-container .form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.form-container .form-group label {
+.contenedorformulario form{
   display: block;
   margin-bottom: 5px;
 }
 
-.form-container .form-group input {
+.contenedorformulario input {
   width: 100%;
   padding: 12px 16px;
   border-radius: 10px;
 }
 
-.form-container .form-group input::placeholder {
+.contenedorformulario textarea{
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 10px;
+}
+
+.contenedorformulario input::placeholder {
   opacity: 0.7;
 }
 .cuestionario button {
